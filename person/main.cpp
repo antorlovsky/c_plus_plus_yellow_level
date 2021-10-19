@@ -26,11 +26,11 @@ public:
         return Type;
     }
 
-protected:
-    const string Name;
-
 private:
     const string Type;
+
+protected:
+    const string Name;
 };
 
 class Student : public Person {
